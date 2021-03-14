@@ -24,7 +24,11 @@
  * @category    Extensions
  * @package     EditWarning
 */
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .note {
     text-align: center;
     background: #ddffdd;
@@ -39,4 +43,10 @@
     padding: .5em;
     margin: 1em 0 1em 0;
     border: 2px solid #b80000;
+}
+.chart-container{
+    margin-bottom: 40px;
+}
+h1 {
+    position: relative;
 }
